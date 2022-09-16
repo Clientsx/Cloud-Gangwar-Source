@@ -1,0 +1,88 @@
+@import url('http://fonts.cdnfonts.com/css/pf-dindisplay-pro');
+
+/* Disable Arrows */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+::-webkit-scrollbar {
+    width: .25vw;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: .25vw;
+    background: gray;
+}
+   
+::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: .25vw;
+    transition: all 0.25s ease-in-out;
+}
+
+* {
+    color: white;
+    font-family: 'PF DinDisplay Pro';
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    overflow: hidden;
+}
+
+.all {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.top-mid{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.right-mid{
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    right: 0%;
+}
+
+.bottom-mid{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.left-mid{
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    left: 0%;
+}
+
+#hit_marker img
+{
+    width: 10.74vh;
+    height: 10.74vh;
+}
